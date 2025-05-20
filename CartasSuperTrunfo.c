@@ -7,7 +7,25 @@
 //Teste larissa
 
 int main() {
-    printf("Desafio Xadrez\n");
+      char estado = 'a';
+      char codigo[10] = "A01";
+      char cidade[20] = "Maceio";
+      float populacao = 994464;
+      double area = 509.295;
+      double pib = 2.747e10;
+      int atracoes = 45;
+     
+      printf("Carta 1\n" );
+      printf("O estado é: %c\n", estado);
+      printf("O código da carta é: %s\n", codigo);
+      printf("O nome da cidade é: %s\n", cidade);
+      printf("A população é de: %f\n", populacao);
+      printf("A área da cidade é de: %.2f km²\n", area);
+      printf("O pib é de: %.2f\n bilhões", pib);
+      printf("O número de pontos turísticos é: %d\n", atracoes);
+
+
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
@@ -21,3 +39,5 @@ int main() {
 
     return 0;
 }
+
+
